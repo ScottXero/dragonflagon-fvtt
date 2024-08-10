@@ -108,11 +108,6 @@ export function ready() {
 		});
 	});
 
-	libWrapperShared.register('UserConfig.prototype._updateObject',
-		async function (this: UserConfig, wrapped: (...args: any) => any, event: any, formData: { "player-log-page": string }) {
-			await this.object.setFlag(SETTINGS.MOD_NAME, DFAdventureLogProcessor.PREF_PLAYER_LOG_JOURNAL, formData["player-log-page"]);
-			return await wrapped(event, formData);
-		});
 
 	migrateDataV9toV10();
 }
