@@ -2,11 +2,11 @@
 	"id": "df-chat-enhance",
 	"title": "DF Chat Enhancements",
 	"description": "Various enhancements to the chat features.",
-	"version": "4.1.0",
-	"author": "flamewave000#0001",
+	"version": "5.0.0",
+	"author": "No one",
 	"compatibility": {
-		"minimum": 10,
-		"verified": 10.288
+		"minimum": 12,
+		"verified": 12
 	},
 	"relationships": {
 		"requires": [
@@ -14,14 +14,14 @@
 				"id": "lib-wrapper",
 				"type": "module",
 				"compatibility": {
-					"verified": "1.12.10.0"
+					"verified": "1.12.14.0"
 				}
 			},
 			{
 				"id": "_chatcommands",
 				"type": "module",
 				"compatibility": {
-					"minimum": "1.4.0"
+					"minimum": "2.0.2"
 				}
 			}
 		]
@@ -37,14 +37,14 @@
 		{ "lang": "ko", "name": "한국어", "path": "lang/ko.json" },
 		{ "lang": "ja", "name": "日本語", "path": "lang/ja.json" }
 	],
-	"url":		"https://github.com/flamewave000/dragonflagon-fvtt/tree/master/df-chat-enhance",
+	"url":		"https://github.com/ScottXero/dragonflagon-fvtt/tree/master/df-chat-enhance",
 	"license":	"https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/LICENSE",
-	"manifest":	"https://dragonflagon.cafe/mods/man/df-chat-enhance",
-	"download":	"https://dragonflagon.cafe/mods/pak/df-chat-enhance",
-	"readme":	"https://github.com/flamewave000/dragonflagon-fvtt/tree/master/df-chat-enhance/README.md",
-	"changelog":"https://github.com/flamewave000/dragonflagon-fvtt/tree/master/df-chat-enhance/CHANGELOG.md",
+	"manifest":	"https://github.com/ScottXero/dragonflagon-fvtt/tree/master/df-chat-enhance",
+	"download":	"https://github.com/ScottXero/dragonflagon-fvtt/tree/master/df-chat-enhance",
+	"readme":	"https://github.com/ScottXero/dragonflagon-fvtt/tree/master/df-chat-enhance/README.md",
+	"changelog":"https://github.com/ScottXero/dragonflagon-fvtt/tree/master/df-chat-enhance/CHANGELOG.md",
 	"manifestPlusVersion": "1.0.0",
-	"bugs": "https://github.com/flamewave000/dragonflagon-fvtt/issues/new/choose",
+	"bugs": "https://github.com/ScottXero/dragonflagon-fvtt//issues/new/choose",
 	"authors": [ { "name": "flamewave000", "discord": "flamewave000#0001", "url": "https://github.com/flamewave000" } ],
 	"media": [
 		{ "type": "cover", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-chat-enhance/cover.png" },
